@@ -1,6 +1,6 @@
 <a name="MathMagiciansApp"></a>
 
-  <h1><b>MathMagiciansApp</b></h1>
+  <h1><b>MathMagiciansApp </b></h1>
 
 </div>
 
