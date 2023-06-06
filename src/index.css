@@ -1,27 +1,86 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+.screen {
+  width: 98%;
+  text-align: end;
+  padding: 14px 0;
+  background-color: grey;
+}
+
+.screen-text {
+  color: #fff;
+  margin: 0;
+  padding-right: 10px;
+}
+
+.number {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number button {
+  width: 33.33%;
+  padding: 15px 0;
+  background-color: lightgray;
+  border: 0.1px solid grey;
+}
+
+.num-opp {
+  width: 100%;
+  display: flex;
+}
+
+.operators {
+  width: 23%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operators button {
+  width: 100%;
+  background-color: rgb(248, 95, 39);
+  border: 0.1px solid grey;
+}
+
+.other-opp {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.other-opp button {
+  width: 33.33%;
+  border: 0.5px solid lightgray;
+}
+
+.zero {
+  width: 100%;
+  display: flex;
+}
+
+.zero button:nth-child(1) {
+  width: 67%;
+}
+
+.zero button:nth-child(2) {
+  width: 33.33%;
 }

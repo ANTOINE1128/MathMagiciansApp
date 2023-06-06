@@ -10,13 +10,12 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+ 
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -50,25 +49,41 @@
 - **[use JSX and javascript for functionalities]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### 🚀 Live Demo(#live-demo)
-Coming soon ...
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+### Setup
+
+To set up the project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/ANTOINE1128/MathMagiciansApp.git`
+2. Navigate to the project directory: `cd calculator`
+3. Install the dependencies: `npm install`
 
 ### Prerequisites
 
-In order to clone this project you need:
- ### Setup
--  go to your terminal 
-- write this command line : 
+Before running the application, ensure you have the following prerequisites installed:
 
-git clone https://github.com/ANTOINE1128/MathMagiciansApp
+- Node.js
+- npm (Node Package Manager)
+### Install
+
+To install the necessary dependencies, run the following command: npm install
+
+### Usage
+
+To start the application, use the following command: npm start
+ 
+### Deployment
+
+To deploy the application, follow these steps:
+
+1. Build the project: `npm run build`
+2. Deploy the contents of the `build` folder to your preferred hosting platform.
+
+You can find the optimized and minified production-ready build files in the `build` directory after running the above command.
 
 
-- Clone this repository to your desired folder:
--  to install all the dependencies required you can run this command : npm install 
-- to view the project in the browser you can run this command : npm start
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
