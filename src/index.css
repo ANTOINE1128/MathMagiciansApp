@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
+  height: 100vh;
 }
 
 .calculator-container {
@@ -17,69 +17,70 @@
   height: 300px;
   padding: 10px;
 }
-.screen{
-  width :98%;
+
+.screen {
+  width: 98%;
   text-align: end;
   padding: 14px 0;
- 
   background-color: grey;
 }
+
 .screen-text {
+  color: #fff;
   margin: 0;
   padding-right: 10px;
 }
-.calculator {
-  width: 300px; 
-  height: 300px; 
-  padding: 10px;
-}
+
 .number {
-width : 75%;
-display: flex;
-flex-wrap: wrap;
-
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
 }
-.number button  {
-width : 33.33%;
-padding: 15px 0;
 
-background-color: lightgray;
-border: 0.1px solid grey;
-
+.number button {
+  width: 33.33%;
+  padding: 15px 0;
+  background-color: lightgray;
+  border: 0.1px solid grey;
 }
-.num-opp{
-  width : 100%;
+
+.num-opp {
+  width: 100%;
   display: flex;
 }
-.operators{
+
+.operators {
   width: 23%;
   display: flex;
   flex-wrap: wrap;
-  
-
 }
+
 .operators button {
   width: 100%;
   background-color: rgb(248, 95, 39);
   border: 0.1px solid grey;
 }
-.other-opp  {
-width: 100%;
-display: flex;  
-flex-wrap:wrap;
 
+.other-opp {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
-.other-opp  button {
+
+.other-opp button {
   width: 33.33%;
-  border: 0.1 solid lightgray;
+  border: 0.5px solid lightgray;
 }
+
 .zero {
   width: 100%;
   display: flex;
 }
+
 .zero button:nth-child(1) {
   width: 67%;
 }
+
 .zero button:nth-child(2) {
   width: 33.33%;
 }
