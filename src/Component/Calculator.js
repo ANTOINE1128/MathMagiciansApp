@@ -7,7 +7,7 @@ import calculate from '../logic/calculate';
 const Calculator = () => {
   const [calcData, setCalcData] = useState({
     total: null,
-    
+
   });
   const handleClick = (buttonName) => {
     const newData = calculate(calcData, buttonName);
