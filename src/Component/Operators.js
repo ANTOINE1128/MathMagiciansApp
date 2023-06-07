@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Operators = ({ handleClick  }) => {
+const Operators = ({ handleClick }) => {
   const operators = ['÷', '+', '-', 'x', '='];
 
   return (
