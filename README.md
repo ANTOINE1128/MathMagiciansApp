@@ -2,8 +2,6 @@
 
   <h1><b>MathMagiciansApp </b></h1>
 
-</div>
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
