@@ -5,7 +5,7 @@ import Operators from './Operators';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [calcData, setCalcData] = useState({
+  const [calcData, setCalcData ] = useState({
     total: null,
 
   });

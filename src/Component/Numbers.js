@@ -5,7 +5,7 @@ const Numbers = ({ handleClick }) => {
   const num = [7, 8, 9, 4, 5, 6, 1, 2, 3];
   return (
     <div className="number">
-      <div className="other-opp">
+      <div className="other-opp ">
         <button type="button" onClick={() => handleClick('AC')}>AC</button>
         <button type="button" onClick={() => handleClick('+/-')}>+/-</button>
         <button type="button" onClick={() => handleClick('%')}>%</button>

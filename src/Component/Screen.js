@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Screen = ({ display }) => (
+const Screen = ({ display  }) => (
   <div className="screen">
     <span className="screen-text">{display}</span>
   </div>
