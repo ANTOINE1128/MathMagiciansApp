@@ -1,10 +1,14 @@
 import React from 'react';
 import Calculator from './Component/Calculator';
+import FetchData from './Component/FetchData';
 
 function App() {
   return (
-    <div className="container">
-      <Calculator />
+    <div>
+      <div className="container">
+        <Calculator />
+        <FetchData />
+      </div>
     </div>
   );
 }

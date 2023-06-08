@@ -84,3 +84,19 @@
 .zero button:nth-child(2) {
   width: 33.33%;
 }
+
+.quote {
+  background-color: cadetblue;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem 2rem 2rem;
+  font-size: 2rem;
+}
+
+.loading {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+}
