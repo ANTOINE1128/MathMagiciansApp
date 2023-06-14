@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-function FetchData() {
+function Quotes() {
   const [fetchData, SetFechedData] = useState([]);
   const [dataLoading, SetDataLoad] = useState(false);
   const [errorLoad, SetErrorLoad] = useState(false);
@@ -34,7 +34,7 @@ function FetchData() {
     return <div className="error">please try again after 5 hours</div>;
   }
   return (
-    <div>
+    <div className="quote-container">
       { fetchData.map((data) => (
         <p className="quote" key={data.quote}>
           {data.quote}
@@ -44,4 +44,4 @@ function FetchData() {
   );
 }
 
-export default FetchData;
+export default Quotes;

@@ -1,21 +1,23 @@
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+   
+  
   height: 100vh;
 }
 
 .calculator-container {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-self: center;
+  
+ 
 }
 
 .calculator {
-  width: 300px;
-  height: 300px;
-  padding: 10px;
+  width: 70%;
+  height: 100vh;
+  padding: 2rem;
 }
 
 .screen {
@@ -84,19 +86,21 @@
 .zero button:nth-child(2) {
   width: 33.33%;
 }
-
+.quote-container{
+  background-color: rgb(197, 194, 197);
+}
 .quote {
-  background-color: cadetblue;
-  width: 50%;
   display: flex;
-  justify-content: space-between;
+  margin-top: 15%;
+  align-self: center;
+  font-weight: 400;
+  width: 100%;
   padding: 2rem 2rem 2rem 2rem;
   font-size: 2rem;
+  
 }
 
 .loading {
-  background-color: cadetblue;
-  display: flex;
-  justify-content: space-between;
-  font-size: 3rem;
+  color: red;
+ font-size: 3rem;
 }
