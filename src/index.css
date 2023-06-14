@@ -1,8 +1,6 @@
 
 .container {
   display: flex;
-   
-  
   height: 100vh;
 }
 
@@ -10,8 +8,6 @@
   width: 100%;
   display: flex;
   align-self: center;
-  
- 
 }
 
 .calculator {
@@ -86,9 +82,11 @@
 .zero button:nth-child(2) {
   width: 33.33%;
 }
-.quote-container{
+
+.quote-container {
   background-color: rgb(197, 194, 197);
 }
+
 .quote {
   display: flex;
   margin-top: 15%;
@@ -97,10 +95,9 @@
   width: 100%;
   padding: 2rem 2rem 2rem 2rem;
   font-size: 2rem;
-  
 }
 
 .loading {
   color: red;
- font-size: 3rem;
+  font-size: 3rem;
 }
