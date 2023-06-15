@@ -15,6 +15,9 @@ const Calculator = () => {
   };
   return (
     <div className="calculator-container">
+      <div className="calc-title">
+        <h1>let&apos;s do Math!</h1>
+      </div>
       <div className="calculator">
         <Screen display={calcData.next || calcData.total || '0'} />
         <div className="num-opp">
